@@ -20,6 +20,7 @@ puts "Moved bookmarks:"
 puts sites
 FileUtils.mv sites, '/Users/Andromeda/Files/Sites'
 
+# Move rest of files
 misc = Dir.glob('/Users/Andromeda/Desktop/*')
 puts "Moved files:"
 puts misc
